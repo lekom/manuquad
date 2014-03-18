@@ -7,7 +7,7 @@ The Manuquad uses an arduino mega microcontroller running Multiwii (multiwii.com
 module on serial port 0 for wireless communication with the Multiwii Configurator.  This allows wireless PID tuning and 
 real-time visual sensor displays and calibration capability.  The xbee transceiver is connected to serial port 1 to act
 as the RC receiver, receiving Multiwii Serial Protocol (MSP) messages from the xbee on my laptop.  The sensors are on
-a chinese pcb connected together on a I2C bus.  These include a 6050 gyro/accel, 5883 magnetometer and bmp085 barometer.  Currently these are polled at 100Hz by the arduino.  
+a chinese pcb connected together on a I2C bus.  These include an MPU6050 gyro/accel, 5883 magnetometer and bmp085 barometer.  Currently these are polled at 100Hz by the arduino.  
 
 
 
